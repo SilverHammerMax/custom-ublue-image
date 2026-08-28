@@ -42,7 +42,6 @@ modules:
         install: # system flatpaks we want all users to have and not remove
           - io.github.kolunmi.Bazaar
           - net.nokyan.Resources
-          - org.gnome.Calculator
           - org.mozilla.firefox
       - scope: user # Also add Flathub user repo, but no user packages
 
