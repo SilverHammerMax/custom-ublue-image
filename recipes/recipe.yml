@@ -20,8 +20,9 @@ modules:
   - type: dnf
     repos:
       copr:
-        - peterwu/rendezvous
-          chroot: fedora-45-x86_64
+        enable:
+          - peterwu/rendezvous
+            chroot: fedora-45-x86_64
       nonfree: rpmfusion
     install:
       packages:
