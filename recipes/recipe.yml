@@ -19,9 +19,13 @@ modules:
 
   - type: dnf
     repos:
+      copr:
+        - peterwu/rendezvous
+        - chroot: fedora-45-x86_64
       nonfree: rpmfusion
     install:
       packages:
+        - bibata-cursor-themes
         - distrobox
         - neovim
     remove:
