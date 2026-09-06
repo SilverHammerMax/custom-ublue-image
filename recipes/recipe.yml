@@ -21,7 +21,7 @@ modules:
     repos:
       copr:
         - peterwu/rendezvous
-        - chroot: fedora-45-x86_64
+          chroot: fedora-45-x86_64
       nonfree: rpmfusion
     install:
       packages:
