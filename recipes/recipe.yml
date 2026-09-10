@@ -22,6 +22,7 @@ modules:
       copr:
         enable:
           - peterwu/rendezvous
+          - name: peterwu/rendezvous
             chroot: fedora-45-x86_64
       nonfree: rpmfusion
     install:
