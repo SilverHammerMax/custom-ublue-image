@@ -32,8 +32,6 @@ modules:
         - bibata-cursor-themes
         - distrobox
         - neovim
-        - VirtualBox
-        - akmod-VirtualBox
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
