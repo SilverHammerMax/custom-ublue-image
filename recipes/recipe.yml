@@ -24,12 +24,15 @@ modules:
           - peterwu/rendezvous
           - name: peterwu/rendezvous
             chroot: fedora-45-x86_64
+      files:
+        - https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
       nonfree: rpmfusion
     install:
       packages:
         - bibata-cursor-themes
         - distrobox
         - neovim
+        - VirtualBox
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
