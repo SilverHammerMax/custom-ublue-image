@@ -24,8 +24,6 @@ modules:
           - peterwu/rendezvous
           - name: peterwu/rendezvous
             chroot: fedora-45-x86_64
-      files:
-        - https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo
       nonfree: rpmfusion
     install:
       packages:
